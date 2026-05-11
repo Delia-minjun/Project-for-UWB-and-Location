@@ -1,0 +1,13 @@
+<launch>
+    <!-- 1. 启动 UWB 驱动 (nlink_parser) -->
+    <node pkg="nlink_parser" type="linktrack" name="linktrack0" output="screen">
+        <param name="port_name" value="/dev/ttyACM0" />
+        <param name="baud_rate" value="921600" />
+    </node>
+
+    <!-- 2. 启动 EKF 融合节点 -->
+    <node pkg="uwb_fusion" type="ekf_fusion_node.py" name="fusion_node" output="screen" />
+
+    <!-- 3. 可选：启动 Rviz 可视化 -->
+    <node pkg="rviz" type="rviz" name="rviz" />
+</launch>

@@ -1,0 +1,8 @@
+prefix=/root/uwb_ws/install
+
+Name: uwb_read
+Description: Description of uwb_read
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
