@@ -1,4 +1,4 @@
-<h1 align="center">🚗 Unmanned System Target Following: UWB & Vision Fusion Localization</h1>
+<h1 align="center"> Unmanned System Target Following: UWB & Vision Fusion Localization</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/ROS-Noetic-22314E?style=flat-square&logo=ros&logoColor=white" alt="ROS" />
