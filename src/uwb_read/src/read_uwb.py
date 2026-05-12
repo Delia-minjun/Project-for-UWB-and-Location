@@ -8,7 +8,7 @@ def uwb_publisher():
     rospy.init_node('uwb_reader_node', anonymous=True)
     pub = rospy.Publisher('uwb_data_raw', String, queue_size=10)
     
-    # 配置串口 (根据你的设备调整波特率)
+    # 配置串口
     ser = serial.Serial('/dev/ttyACM0', 921600, timeout=1)
     
     rospy.loginfo("Reading UWB data from /dev/ttyACM0...")
