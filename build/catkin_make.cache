@@ -1,2 +1,0 @@
-nlink_parser:uwb_fusion:uwb_read
--DCATKIN_DEVEL_PREFIX=/root/uwb_ws/devel -DCMAKE_INSTALL_PREFIX=/root/uwb_ws/install -G Unix Makefiles
