@@ -20,6 +20,16 @@ The system utilizes an **Extended Kalman Filter (EKF)** to fuse asynchronous mul
 
 ---
 
+## Acknowledgments & Open-Source Dependencies
+
+This project utilizes the **LinkTrack UWB modules** manufactured by Nooploop. To interface the hardware with our ROS environment, we rely on their official open-source serial parsing driver:
+
+ **`nlink_parser`**:[nooploop-dev/nlink_parser](https://github.com/nooploop-dev/nlink_parser)
+
+This package handles the underlying serial protocol parsing and efficiently publishes the raw UWB ranging data as standard ROS topics.
+
+---
+
 ## Installation & Build
 
 The system runs on **Ubuntu 20.04** with **ROS Noetic**. 
